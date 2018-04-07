@@ -6,4 +6,17 @@
     <string name="calcular">Calcular</string>
     <string name="limpiar">Limpiar</string>
     <string name="resultado">Resultado</string>
+    <string name="resta">Resta</string>
+    <string name="multiplir">Multiplicar</string>
+    <string name="divir">dividir</string>
+    <string name="suma">Suma</string>
+    <string name="error_uno">Digite el primer numero</string>
+    <string name="error_dos">Digite el segundo numero</string>
+    <string name="error_tres">No se puede Dividir entre 0</string>
+    <array name="operaciones">
+        <item>@string/suma</item>
+        <item>@string/resta</item>
+        <item>@string/multiplir</item>
+        <item>@string/divir</item>
+    </array>
 </resources>

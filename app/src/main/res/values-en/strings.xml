@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="titulo">Calculator</string>
+    <string name="numero_uno">Number one</string>
+    <string name="numero_dos">Number Two</string>
+    <string name="calcular">Calculate</string>
+    <string name="limpiar">Clear</string>
+    <string name="resultado">Result</string>
+    <string name="resta">"Substration "</string>
+    <string name="multiplir">Multiplication</string>
+    <string name="divir">Division</string>
+    <string name="suma">"Addition "</string>
+    <string name="error_uno">Type first Number</string>
+    <string name="error_dos">Type Second Number</string>
+    <string name="error_tres">Cant make a Division by Zero</string>
+</resources>
