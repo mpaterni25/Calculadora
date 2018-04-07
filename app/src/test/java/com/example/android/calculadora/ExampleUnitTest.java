@@ -11,7 +11,27 @@ import static org.junit.Assert.*;
  */
 public class ExampleUnitTest {
     @Test
-    public void addition_isCorrect() throws Exception {
-        assertEquals(4, 2 + 2);
+    public void sumar_dos_numeros(){
+        double a =4 ,b =6;
+        assertEquals(10,Metodos.sumar(a,b),0);
     }
+
+    @Test
+    public void resta_dos_numeros(){
+        double a =4 ,b =6;
+        assertEquals(-2,Metodos.restar(a,b),0);
+    }
+
+    @Test
+    public void multiplicar_dos_numeros(){
+        double a =4 ,b =6;
+        assertEquals(24,Metodos.multiplicar(a,b),0);
+    }
+
+    @Test
+    public void dividir_dos_numeros(){
+        double a =4 ,b =2;
+        assertEquals(2,Metodos.dividir(a,b),0);
+    }
+
 }
